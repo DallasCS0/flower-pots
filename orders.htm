@@ -12,45 +12,110 @@
     <body>
 <h1> orders </h1>
 
-<table>
-    <table border="2px">
+        <table>
+    <table border="1px">
     <tr>
-        <td> <a href="index.htm">
+        <td width="10%" > <a href="index.htm">
         <img src="images/nav_home.gif">
         </a>
-        </td>
-        </tr>
-    <tr>
-  <td> <a href="about.htm">
-<img src="images/nav_about.gif">
-    </a> </td>
-    </tr>
-    <tr>
-        <td> <a href="gallery.htm">
-        <img src="images/nav_gallery.gif">
-        </a>
-        </td>
-        </tr>
-        <tr>
-            <td> <a href="orders.htm">
-            <img src="images/nav_ordering.gif">
-            </a>
-            </td>
-             <tr>
-    <tr>
-   <td> <a href="contact.htm">
-<img src="images/nav_contact.gif">
-</a>
+        <a href="about.htm">
+            <img src="images/nav_about.gif">
+                </a>
+        
+                <a href="gallery.htm">
+                    <img src="images/nav_gallery.gif">
+                    </a>
+                   
+                       <a href="orders.htm">
+                        <img src="images/nav_ordering.gif">
+                        </a>
+                      
+                        <a href="contact.htm">
+                            <img src="images/nav_contact.gif">
+                            </a>
+                            <a href="links.htm">
+                                <img src="images/nav_links.gif">
+                                </a>   </td>
+<td width="100%">
+    <label for="Name">Name?</label>
+    <input type="text" id="Name">
+    <br>
+    <label for="Email">Email?</label>
+    <input type="text" id="Email">
+    <br>
+    <label for="Phone#">Phone Number?</label>
+    <input type="text" id="Phone#">
+    <br>
+    <span>Shipping Information</span>
+    <br>
+    <label for="Shipping">Street Adress?</label>
+    <input type="text" id="Shipping">
+    <br>
+    <label for="Shipping"> City?</label>
+    <input type="text" id="Shipping">
+    <br>
+    <label for="Shipping">State?</label>
+    <input type="text" id="Shipping">
+    <br>
+    <label for="Shipping"> Zip?</label>
+    <input type="text" id="Shipping">
+    <br>
+    <section class="Pot-Selection">
+    <label for="Pots">Currently Avaiable Pots</label>
+    <select list="Pots" id="Pots" name="Pots">
+        <option value="blank"></option>
+        <option value="Red Earth">Red Earth</option>
+        <option value="Night Sky">Night Sky</option>
+        <option value="Country Plante">Country Plante</option>
+        <option value="Chinese Clay Flower Pot">Chinese Clay Flower Pot</option>
+        <option value="Italian Terracotta">Italian Terracotta</option>
+        <option value="Carved Terracotta">Carved Terracotta</option>
+        <option value="Classic Clay">Classic Clay</option>
+</select>
+</section>
+
+<label for="Quantity">Quantity Of Pots?</label>
+<input type="text" id="Quantity">
+<br>
+<br>
+<br>
+
+<section>
+    <span>What is your gardening skill?</span>
+    <br>
+<input type="radio" name="Amateur" id="Amateur" value="Amateur">
+<label for="Amateur">Amateur</label>
+<input type="radio" name="Hobbyist" id="Hobbyist" value="Hobbyist">
+<label for="Hobbyist">Hobbyist</label>
+<input type="radio" name="Professional" id="Professional" value="Professional">
+<label for="Professional">Professional</label>
+</section>
+
+<br>
+<br>
+<br>
+
+<span>Would you like to recive a Email Newsletter and/or a Catalog</span>
+<br>
+<input type="checkbox" name="Email" id="Email" value="Email">
+<label for="Email">Email</label>
+<input type="checkbox" name="Newsletter" id="Newsletter" value="Newsletter">
+<label for="Newsletter">Newsletter</label>
+<input type="checkbox" name="Catalog" id="Catalog" value="Catalog">
+<label for="Catalog">Catalog</label>
+</section>
+
+<br>
+<br>
+<br>
+
+<form>
+    <input type="submit" value="Submit">
+  </form>
+
+
 </td>
 </tr>
-
-<tr>
-<td> <a href="links.htm">
-<img src="images/nav_links.gif">
-</a>
-</td>
-</tr>
-
 </table>
 
 <a href="index.htm">Home Page</a>
